@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "CSE341 Team Project -- Jewelery Cataloger",
-    "description": "A program for cataloging jewelry items for insurance purposes ---- <button><a href=\"https://cse-341-team-jewelry-cataloger.herokuapp.com/logout\">LOGOUT</a></button> ---- ",
+    "description": "A program for cataloging jewelry items for insurance purposes ---- <button><a href='/auth/logout'>LOGOUT</a></button> ---- ",
     "version": "1.0.0"
   },
   "host": "cse-341-team-jewelry-cataloger.herokuapp.com",
