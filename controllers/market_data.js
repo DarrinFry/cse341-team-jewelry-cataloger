@@ -125,7 +125,7 @@ const putUpdateMarket = async (req, res) => {
 			});
 
 		console.log(response);
-		if (response.modifiedCount > 0) {
+		if (response) {
 			res.status(204).send();
 		} else {
 			res
