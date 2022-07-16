@@ -3,11 +3,11 @@
 "info": {
     "title": "CSE341 Team Project -- Jewelery Cataloger",
     "version": "1.0.0",
-    "description": "A program for cataloging jewelry items for insurance purposes ---- <button><a href='https://jewelry-cataloger-cse341.herokuapp.com/logout'>LOGOUT</a></button> ---- "
+    "description": "A program for cataloging jewelry items for insurance purposes ---- <button><a href='https://jewelry-cataloger.herokuapp.com/logout'>LOGOUT</a></button> ---- "
   },
   "servers": [
     {
-      "url": "https://jewelry-cataloger-cse341.herokuapp.com/",
+      "url": "https://jewelry-cataloger.herokuapp.com",
       "description": "Host server"
     },
     {

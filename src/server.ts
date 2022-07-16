@@ -40,7 +40,7 @@ app.listen(port, async () =>{
 
 // EJS
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/views'));
 app.use(express.static('public'));
 
 // App
@@ -64,7 +64,7 @@ app
 // req.isAuthenticated is provided from the auth router
 app.get('/', (req, res) => {
   if (req.oidc.isAuthenticated()) {
-    res.redirect('https://jewelry-cataloger-cse341.herokuapp.com/api-docs')
+    res.redirect('https://jewelry-cataloger.herokuapp.com/api-docs')
   } else {
     res.render('index', {
       title: 'Welcome to Jewelry Cataloger'
